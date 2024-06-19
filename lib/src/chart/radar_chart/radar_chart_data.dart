@@ -70,7 +70,7 @@ class RadarChartData extends BaseChartData with EquatableMixin {
     BorderSide? tickBorderData,
     BorderSide? gridBorderData,
     RadarTouchData? radarTouchData,
-    this.isMinValueAtCenter = false,
+    this.isMinValueAtCenter = true,
     super.borderData,
   })  : assert(dataSets != null && dataSets.hasEqualDataEntriesLength),
         assert(
